@@ -1,0 +1,179 @@
+.status {
+    height:36px;
+    line-height: 36px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    background: #f5f5f5;
+    margin-top: 10px;
+}
+.all-main {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.goods-nav {
+    width: 160px;
+    border: solid 1px #999999;
+    float: left;
+}
+.goods-nav-title {
+    padding: 0 10px;
+    background: #434343;
+    height: 27px;
+    line-height: 27px;
+    color: white;
+}
+.goods-nav-title {
+    padding: 0px 5px;
+}
+.list-li {
+    padding: 8px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.list-li>div {
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+    background: #fff;
+}
+.list-li>div>span {
+    float: left;
+}
+.list-li>div>i {
+    float: right;
+}
+.list-li>ol {
+    cursor: pointer;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 8px;
+    display: none;
+}
+.list-li>ol>li {
+    padding: 8px;
+    border-top: 1px dashed black;
+}
+.bactive {
+    background: black;
+    color: #fff;
+}
+.goods-main {
+    float: right;
+}
+.goods-main-title {
+    width: 780px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #CCCCCC;
+    overflow: hidden;
+}
+.main-title-div1 {
+    width: 55px;
+    height: 24px;
+    line-height: 24px;
+    border: solid 1px #999999;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 30px;
+    float: left;
+}
+.main-title-div2 {
+    margin-right: 30px;
+    float: left;
+}
+.main-title-div2>select {
+    outline: none;
+    height: 24px;
+    line-height: 24px;
+    margin-left: 10px;
+}
+.goods-main-list {
+    width: 780px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.goods-main-list-li {
+    position: relative;
+    margin-right: 10px;
+    width: 185px;
+    padding-bottom: 30px;
+    float: left;
+}
+.list-li-goodsCar {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 7px;
+    bottom: 70px;
+    cursor: pointer;
+}
+.list-li-imgBox>a {
+    display: block;
+    width: 183px;
+    height: 296px;
+}
+.goods-main-list-li>a {
+    width: 185px;
+    height: 16px;
+    overflow: hidden;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+.goods-main-list-li>p {
+    margin-top: 5px;
+    text-align: center;
+}
+.goods-main-list-li>p>span {
+    background: red;
+    color: #fff;
+    padding: 0 5px;
+}
+.sidebarFix {
+    position: fixed;
+    top: 120px;
+    left: 50%;
+    margin-left: 475px;
+}
+.sidebarFix ul li {
+    width: 63px;
+    height: 61px;
+    line-height: 100px;
+    border: 1px solid #000;
+    text-align: center;
+    margin-bottom: 1px;
+    position: relative;
+    cursor: pointer;
+}
+.sidebarFix ul li:first-child {
+    background: url(../img/FixCar.jpg) no-repeat 0 0;
+}
+.sidebarFix ul li:nth-child(2) {
+    background: url(../img/FixRen.jpg) no-repeat 0 0;
+}
+.sidebarFix ul li:nth-child(3) {
+    background: url(../img/FixCard.jpg) no-repeat 0 0;
+}
+.sidebarFix ul li:nth-child(4) {
+    background: url(../img/FixMa.jpg) no-repeat 0 0;
+}
+.sidebarFix ul li:last-child {
+    background: url(../img/FixJian.jpg) no-repeat 0 0;
+}
+.sidebarFix ul li a {
+    color: white;
+}
+.carnum {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 700;
+    border: 1px solid red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    z-index: 999;
+    border-radius: 50%;
+    background: red;
+}

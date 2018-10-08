@@ -1,0 +1,124 @@
+.status {
+    height:36px;
+    line-height: 36px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    background: #f5f5f5;
+    margin-top: 10px;
+}
+.detail {
+    position: relative;
+    margin-top: 10px;
+    width: 950px;
+    height: 502px;
+}
+.detail-small {
+    float: left;
+    width: 313px;
+    height: 500px;
+    border:1px solid black;
+    margin: 0 50px 0 10px;
+    position: relative;
+}
+.small-mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    border: solid 1px #e1e1e1;
+    color: black;
+    background: rgba(255,255,255,0.5);
+    z-index: 5;
+    cursor: move;
+    display: none;
+}
+.detail-right {
+    float: left;
+    width: 480px;
+    height: 349px;
+}
+.detail-right h3 {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.detail-right-pThree {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #d91e25;
+}
+.detail-right-pThree span {
+    margin-left: 8px;
+    font-size: 14px;
+    color: #000 !important;
+    text-decoration: line-through;
+}
+.detail-right-colors {
+    margin-top: 20px;
+}
+.detail-right-colors ul {
+    overflow: hidden;
+}
+.detail-right-colors li {
+    margin-top: 5px;
+    height: 30px;
+    padding: 0px 8px;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+    cursor: pointer;
+    margin-right: 8px;
+    font-weight: bold;
+    color: red;
+    border: 2px solid red;
+    border-left: none;
+    border-right: none;
+    line-height: 28px !important;
+}
+.detail-right-chima {
+    width: 300px;
+    line-height: 34px;
+    border: solid 1px #000;
+    position: relative;
+    padding-right: 5px;
+    padding-left: 5px;
+    outline: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 10px;
+    font-weight: 700;font-size: 16px;
+}
+.detail-right-btn {
+    margin-top: 10px;
+}
+.detail-right-btn button {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 8px;
+    color: white;
+}
+.detail-right-btn:last-child button {
+    background-color: red;
+}
+.detail-big {
+    width: 500px;
+    height:502px;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+    right: 125px;
+}
+.main {
+    text-align: center;
+}
+.main>img {
+    margin: 10px 0px;
+    display: inline-block;
+}
+.main:last-child>img {
+    margin-bottom: 100px;
+}

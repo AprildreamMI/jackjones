@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品汇总页</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/allGoods.css">
+</head>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/allGoods.js"></script>
+<body>
+<div class="w">
+    <div class="header">
+        <div class="header-left">
+            <h3>您的位置：中国 / RMB</h3>
+        </div>
+        <div class="header-mide">
+            <a href="#">
+                <img src="img/logo.jpg" alt="杰克琼斯" />
+            </a>
+        </div>
+        <div class="header-right">
+            <h3><a href="#">登陆</a></h3>
+            <h3><a href="#">购物车</a></h3>
+            <div class="header-search">
+                <input type="text" value="搜素" />
+                <span><img src="img/截图 2018-06-19 16.00.01.png"/></span>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="#">首页</a>
+            </li>
+            <li>
+                <a href="#">所有商品</a>
+                <div class="nav-sublist">
+                    <ul class="nav-sulist-ul">
+                        <li>
+                            <a href="#">2018年夏季新品</a>
+                            <ul>
+                                <li><a href="#">新品T恤</a></li>
+                                <li><a href="#">新品短裤</a></li>
+                                <li><a href="#">新品牛仔裤</a></li>
+                                <li><a href="#">新品休闲裤</a></li>
+                                <li><a href="#">新品西服</a></li>
+                                <li><a href="#">新品衬衫</a></li>
+                                <li><a href="#">新品防晒服</a></li>
+                                <li><a href="#">新品男鞋</a></li>
+                                <li><a href="#">新品配饰</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">内装上搭</a>
+                            <ul>
+                                <li><a href="#">新潮T恤</a></li>
+                                <li><a href="#">舒适短袖衬衫</a></li>
+                                <li><a href="#">潮流卫衣</a></li>
+                                <li><a href="#">绅士衬衫</a></li>
+                                <li><a href="#">内搭针织衫</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精选裤装</a>
+                            <ul>
+                                <li><a href="#">质感牛仔裤</a></li>
+                                <li><a href="#">简约牛仔裤</a></li>
+                                <li><a href="#">凉爽短裤</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">夏季上装外套</a>
+                            <ul>
+                                <li><a href="#">牛仔夹克外套</a></li>
+                                <li><a href="#">休闲西服</a></li>
+                                <li><a href="#">轻薄防晒服</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">时尚配饰</a>
+                            <ul>
+                                <li><a href="#">内裤/袜子</a></li>
+                                <li><a href="#">墨镜/太阳镜</a></li>
+                                <li><a href="#">皮带</a></li>
+                                <li><a href="#">背包/提包</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">新品到店</a>
+                <div class="nav-sublist">
+                    <ul class=nav-sulist-ul>
+                        <li>
+                            <a href="#">5月15日上新</a>
+                            <ul></ul>
+                        </li>
+                        <li>
+                            <a href="#">5月20日上新</a>
+                            <ul></ul>
+                        </li>
+                        <li>
+                            <a href="#">5月25日上新</a>
+                            <ul></ul>
+                        </li>
+                        <li>
+                            <a href="#">6月1日上新</a>
+                            <ul></ul>
+                        </li>
+                        <li>
+                            <a href="#">6月6日上新</a>
+                            <ul></ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">专柜新品首降五折</a>
+                <div class="nav-sublist">
+                    <ul class=nav-sulist-ul>
+                        <li>
+                            <a href="#">五折专区</a>
+                            <ul></ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">2018Editorial</a>
+                <div class="nav-sublist">
+                    <ul class=nav-sulist-ul>
+                        <li>
+                            <a href="#">2018Core</a>
+                            <ul></ul>
+                        </li>
+                        <li>
+                            <a href="#">2018MLMR</a>
+                            <ul></ul>
+                        </li>
+                        <li>
+                            <a href="#">2018Outwear</a>
+                            <ul></ul>
+                        </li>
+                        <li>
+                            <a href="#">2018Caps</a>
+                            <ul></ul>
+                        </li>
+                        <li>
+                            <a href="#">2018Jeans</a>
+                            <ul></ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">产品系列</a>
+                <div class="nav-sublist">
+                    <ul class=nav-sulist-ul>
+                        <li>
+                            <a href="#">Core系列</a>
+                            <ul></ul>
+                        </li>
+                        <li>
+                            <a href="#">Essential系列</a>
+                            <ul></ul>
+                        </li>
+                        <li>
+                            <a href="#">MLMR系列</a>
+                            <ul></ul>
+                        </li>
+                        <li>
+                            <a href="#">Jeans系列</a>
+                            <ul></ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">2018合作系列</a>
+                <div class="nav-sublist">
+                    <ul class=nav-sulist-ul>
+                        <li>
+                            <a href="#">2018FIFA世界杯合作系列</a>
+                            <ul></ul>
+                        </li>
+                        <li>
+                            <a href="#">2018Astrid Andersen春夏合作系列</a>
+                            <ul></ul>
+                        </li>
+                        <li>
+                            <a href="#">2018足球俱乐部合作系列</a>
+                            <ul></ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">会员中心</a>
+            </li>
+        </ul>
+    </div>
+    <div class="status">
+        首页 / 所有商品
+    </div>
+    <div class="all-main">
+        <div style="margin-bottom: 10px">
+            <img src="img/alllTopImg.jpg" />
+        </div>
+        <div class="goods-nav">
+            <div class="goods-nav-title">
+                所有商品列表
+            </div>
+            <ul class="goods-nav-list">
+                <li class="list-li">
+                    <div>
+                        <span>FIFA世界杯合作款</span>
+                        <i><img src="img/jia.png" /></i>
+                    </div>
+                    <ol>
+                        <li>
+                            全部-FIFA世界被合作款
+                        </li>
+                        <li>
+                            合作款
+                        </li>
+                    </ol>
+                </li>
+                <li class="list-li">
+                    <div>
+                        <span>新品首降5折起</span>
+                        <i><img src="img/jia.png" /></i>
+                    </div>
+                    <ol>
+                        <li>
+                            全部-新品首降五折起
+                        </li>
+                        <li>
+                            折扣款
+                        </li>
+                        <li>
+                            五折专区
+                        </li>
+                    </ol>
+                </li>
+                <li class="list-li">
+                    <div>
+                        <span>2018年夏季新品</span>
+                        <i><img src="img/jia.png" /></i>
+                    </div>
+                    <ol>
+                        <li>
+                            全部-2018年夏季新品
+                        </li>
+                        <li>
+                            新品到店
+                        </li>
+                        <li>
+                            6月6日上新
+                        </li>
+                        <li>
+                            5月25日上新
+                        </li>
+                        <li>
+                            5月20日上新
+                        </li>
+                        <li>
+                            5月15日上新
+                        </li>
+                    </ol>
+                </li>
+                <li class="list-li">
+                    <div>
+                        <span>T恤</span>
+                        <i><img src="img/jia.png" /></i>
+                    </div>
+                    <ol>
+                        <li>
+                            全部-T恤
+                        </li>
+                        <li>
+                            翻领T恤
+                        </li>
+                        <li>
+                            T恤
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+        <div class="goods-main">
+            <div class="goods-main-title">
+                <div class="main-title-div1">搭配</div>
+                <div class="main-title-div2">
+                    排序根据:
+                    <select>
+                        <option>点击量</option>
+                        <option>价格</option>
+                        <option>销售量</option>
+                        <option>上架时间</option>
+                    </select>
+                </div>
+                <div class="main-title-div2">
+                    排序规则:
+                    <select>
+                        <option>倒序</option>
+                    </select>
+                </div>
+            </div>
+            <div class="goods-main-list">
+                <ul style="overflow: hidden">
+                    <li class=goods-main-list-li>
+                        <div class="list-li-goodsCar">
+                            <img src="img/goodsCar.png" width="40px" height="40px"/>
+                        </div>
+                        <div class="list-li-imgBox">
+                            <a href="base.html">
+                                <img src="img/goodslist1.jpg" width="183px" height="296px"/>
+                            </a>
+                        </div>
+                        <a href="#">春男潮流纯棉立体胶印字母圆领短袖T恤</a>
+                        <p>
+                            ￥99.50 &nbsp;
+                            <span>5.0折</span>
+                        </p>
+                    </li>
+                    <li class=goods-main-list-li>
+                        <div class="list-li-goodsCar">
+                            <img src="img/goodsCar.png" width="40px" height="40px"/>
+                        </div>
+                        <div class="list-li-imgBox">
+                            <a href="#">
+                                <img src="img/goodslist2.jpg" width="183px" height="296px"/>
+                            </a>
+                        </div>
+                        <a href="#">舒适棉字母宽松圆领潮流男装春短袖T恤</a>
+                        <p>
+                            ￥99.50 &nbsp;
+                            <span>5.0折</span>
+                        </p>
+                    </li>
+                    <li class=goods-main-list-li>
+                        <div class="list-li-goodsCar">
+                            <img src="img/goodsCar.png" width="40px" height="40px"/>
+                        </div>
+                        <div class="list-li-imgBox">
+                            <a href="#">
+                                <img src="img/goodslist3.jpg" width="183px" height="296px"/>
+                            </a>
+                        </div>
+                        <a href="#">春男舒适纯棉胶印印花圆领半袖T恤</a>
+                        <p>
+                            ￥119.50 &nbsp;
+                            <span>5.0折</span>
+                        </p>
+                    </li>
+                    <li class=goods-main-list-li>
+                        <div class="list-li-goodsCar">
+                            <img src="img/goodsCar.png" width="40px" height="40px"/>
+                        </div>
+                        <div class="list-li-imgBox">
+                            <a href="#">
+                                <img src="img/goodslist4.jpg" width="183px" height="296px"/>
+                            </a>
+                        </div>
+                        <a href="#">夏季男装纯棉时尚印花修身圆领T恤</a>
+                        <p>
+                            ￥249.50 &nbsp;
+                            <span>5.0折</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="sidebarFix">
+        <ul>
+            <li class=sidebarFix-li>
+                <a href="#">购物车</a>
+                <div class="carnum"style="display: block;">0</div>
+            </li>
+            <li class=sidebarFix-li>
+                <a href="#">服务热线</a>
+            </li>
+            <li class=sidebarFix-li>
+                <a href="#">会员中心</a>
+            </li>
+            <li class=sidebarFix-li>
+                <a href="#">加入我们</a>
+            </li>
+            <li class=sidebarFix-li>
+                <a href="#">返回顶部</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer">
+        <div class="footer-nav">
+            <ul>
+                <li>
+                    <a href="#">首页</a>
+                </li>
+                <li>
+                    <a href="#">所有商品</a>
+                </li>
+                <li>
+                    <a href="#">新品到店</a>
+                </li>
+                <li>
+                    <a href="#">专柜新品首降五折</a>
+                </li>
+                <li>
+                    <a href="#">2018Editorial</a>
+                </li>
+                <li>
+                    <a href="#">产品系列</a>
+                </li>
+                <li>
+                    <a href="#">2018合作系列</a>
+                </li>
+                <li>
+                    <a href="#">会员中心</a>
+                </li>
+            </ul>
+        </div>
+        <div class="partner">
+            <img style="float: left;left: 115px" src="img/vmLogo.jpg" />
+            <img style="text-align: center;left: 50%;" src="img/onlyLogo.jpg" />
+            <img style="float: right;right: 115px" src="img/selLogo.jpg" />
+        </div>
+        <a href="#"><img style="display: inline-block;margin-top: 10px" src="img/besLOGO.jpg" /></a>
+        <p style="text-align: center;padding: 20px">© 2013 Bestseller. All Rights Reserved 津ICP备12007886号 - 1</p>
+        <p style="text-align: center;padding: 10px">绫致时装（天津）有限公司</p>
+    </div>
+</div>
+</body>
+</html>
